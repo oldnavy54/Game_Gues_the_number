@@ -1,1 +1,1 @@
-# Game_Gues_the_number
+# Game_Guess_the_number
