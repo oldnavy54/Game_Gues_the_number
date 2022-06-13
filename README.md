@@ -2,5 +2,5 @@
 ## From the ScillFactory DataScience course
 
 ### Проекты
-The Game - игра отгадай число
+ - The Game - игра отгадай число
 
