@@ -42,7 +42,6 @@ def score_game(random_predict) -> int:
         int: среднее количество попыток
     """
     count_ls = []      # пустой список количества попыток
-    np.random.seed(1)  # фиксируем сид для воспроизводимости
     random_array = np.random.randint(1, 101, size=(1000))  # список "загаданных" чисел
 
     for number in random_array:
