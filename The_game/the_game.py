@@ -18,8 +18,7 @@ def random_predict(number: int = 1) -> int:
     min = 0
     max = 101
     
-    print(number)
-    
+        
     while True:
         count += 1
         predict_number = min + (max - min) // 2  # предполагаемое число
@@ -28,7 +27,7 @@ def random_predict(number: int = 1) -> int:
         if number < predict_number:  # если загаданное число меньше
             max = predict_number     # снижаем максимум
         else: min = predict_number   # иначе (если загаданное число больше) - повышаем минимум   
-    print('count=', count)
+    
     return count
 
 
